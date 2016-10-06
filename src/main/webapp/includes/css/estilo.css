@@ -1,0 +1,221 @@
+@CHARSET "ISO-8859-1";
+
+/* Define o logo da empresa no sistema */
+.logoempresa{
+	width:235px;
+	height:65px;
+	background-image:url('../img/logo_wdev_grande.png');
+}
+
+body {
+	padding-top: 110px;
+	overflow: -moz-scrollbars-vertical; 
+	overflow-y: scroll;
+}
+
+.input-micro {
+	width: 30px;
+}
+.input-xlarge {
+  width: 270px;
+}
+
+.input-xxlarge {
+  width: 386px;
+}
+
+.input-xxxlarge {
+  width: 530px;
+}
+
+.input-fill {
+  width: 97.5%;
+}
+
+.ui-widget {
+	font-size: 13px !important;
+}
+
+.topo .logo {
+	top: 20px;
+	position: absolute;
+}
+
+.topo .nav {
+	margin-left: 20px !important;
+	margin-top: 25px !important;
+}
+
+legend {
+	padding-top: 0px !important;
+	height: 24px;
+	width: auto !important;
+}
+
+.ui-panel h3.header {
+	margin-top: 0px !important;
+	margin-bottom: 15px !important;
+}
+
+.ui-tabs.ui-widget-content {
+	border-bottom: none !important;
+}
+
+/*
+.header .menu .nav > li > a {
+	color: white;
+}
+
+.header .menu .nav > li > a:hover {
+	color: green;
+}
+*/
+.error {
+	color: red;
+}
+
+input.ui-state-error,.ui-state-error .ui-selectonemenu-label {
+	border: 1px solid #CD0A0A !important;
+	background-color: #CD0A0A !important;
+	color: white !important;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.help-block {
+	font-size: 10px;
+}
+
+.no-border td,.no-border tr {
+	background-color: inherit !important;
+	border: none !important;
+	padding: 2px !important;
+}
+
+.form td,.form tr {
+	border: none !important;
+	padding: 5px !important;
+}
+
+.form > .ui-datagrid-content {
+	border: none !important;
+}
+
+.form-acoes {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.form-acoes.superior,  .form-acoes.direita {
+	float: right;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.form-acoes.superior .ui-button {
+	margin-left: 10px;
+}
+
+.form-acoes.superior .ui-panelgrid .ui-button {
+	margin-left: 0px;
+}
+.center {
+	text-align: center;
+}
+
+.ui-selectonemenu {
+	margin-top: 2px;
+}
+}
+
+.icone {
+
+}
+
+.icone .ui-button-icon-left {
+
+}
+
+.retroceder {
+	
+}
+
+.subtotal .ui-widget,.total-acumulado .ui-widget {
+	font-size: 11px !important;
+	font-weight: bold;
+}
+
+.mesAtual .ui-widget-content,.mesAtual .help-block {
+	color: green !important;
+}
+
+.numerico {
+	text-align: right;
+}
+
+.input-mini.moeda {
+	width: 70px;
+}
+.ui-inputfield {
+	font-size: 12px !important;
+}
+.moeda {
+	text-align: right;
+}
+
+.ui-inputfield.hasDatepicker {
+	width: 70px !important;
+}
+a.icone:hover {
+	text-decoration: none;
+}
+.ui-state-highlight,.ui-widget-content .ui-state-highlight,.ui-widget-header .ui-state-highlight {
+}
+
+
+.input-append .add-on, .input-prepend .add-on, .input-append .ui-button, .input-prepend .ui-button, .input-append .btn-group > .dropdown-toggle, .input-prepend .btn-group > .dropdown-toggle {
+	vertical-align: top;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+
+.input-append .add-on, .input-append .ui-button, .input-append .btn-group {
+	margin-left: -1px;
+}
+.input-append .add-on:last-child, .input-append .ui-button:last-child, .input-append .btn-group:last-child > .dropdown-toggle {
+	-webkit-border-radius: 0 4px 4px 0 !important;
+	-moz-border-radius: 0 4px 4px 0 !important;
+	border-radius: 0 4px 4px 0 !important;
+}
+
+
+
+.input-append input, .input-prepend input, .input-append select, .input-prepend select, .input-append .uneditable-input, .input-prepend .uneditable-input {
+position: relative;
+margin-bottom: 0;
+vertical-align: top;
+-webkit-border-radius: 0 4px 4px 0;
+-moz-border-radius: 0 4px 4px 0;
+border-radius: 0 4px 4px 0;
+}
+
+.input-append input, .input-append select, .input-append .uneditable-input {
+-webkit-border-radius: 4px 0 0 4px !important;
+-moz-border-radius: 4px 0 0 4px !important;
+border-radius: 4px 0 0 4px !important;
+	line-height: 20px !important;
+	margin: 2px 0 !important;
+}
+
+.input-append input[class*="span"], .input-append .uneditable-input[class*="span"], .input-prepend input[class*="span"], .input-prepend .uneditable-input[class*="span"], .row-fluid input[class*="span"], .row-fluid select[class*="span"], .row-fluid textarea[class*="span"], .row-fluid .uneditable-input[class*="span"], .row-fluid .input-prepend [class*="span"], .row-fluid .input-append [class*="span"] {
+	display: inline-block;
+}
+
+.input-append {
+	display: inline-block;
+	margin-bottom: 0;
+	vertical-align: middle;
+}
